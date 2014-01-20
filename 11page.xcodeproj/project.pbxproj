@@ -21,6 +21,8 @@
 		00EBA4AB188CBCA70091DD12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00EBA48D188CBCA70091DD12 /* UIKit.framework */; };
 		00EBA4B3188CBCA70091DD12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00EBA4B1188CBCA70091DD12 /* InfoPlist.strings */; };
 		00EBA4B5188CBCA70091DD12 /* _1pageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00EBA4B4188CBCA70091DD12 /* _1pageTests.m */; };
+		00EBA4BF188CBF250091DD12 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EBA4BE188CBF250091DD12 /* image.png */; };
+		00EBA4C1188CC0D80091DD12 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00EBA4C0188CC0D80091DD12 /* music1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		00EBA4B0188CBCA70091DD12 /* 11pageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "11pageTests-Info.plist"; sourceTree = "<group>"; };
 		00EBA4B2188CBCA70091DD12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00EBA4B4188CBCA70091DD12 /* _1pageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1pageTests.m; sourceTree = "<group>"; };
+		00EBA4BE188CBF250091DD12 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../../../image.png; sourceTree = "<group>"; };
+		00EBA4C0188CC0D80091DD12 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music1.mp3; path = ../../../music1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +116,9 @@
 		00EBA48F188CBCA70091DD12 /* 11page */ = {
 			isa = PBXGroup;
 			children = (
+				00EBA4C0188CC0D80091DD12 /* music1.mp3 */,
 				00EBA498188CBCA70091DD12 /* AppDelegate.h */,
+				00EBA4BE188CBF250091DD12 /* image.png */,
 				00EBA499188CBCA70091DD12 /* AppDelegate.m */,
 				00EBA49B188CBCA70091DD12 /* Main.storyboard */,
 				00EBA49E188CBCA70091DD12 /* ViewController.h */,
@@ -231,6 +237,8 @@
 				00EBA4A2188CBCA70091DD12 /* Images.xcassets in Resources */,
 				00EBA494188CBCA70091DD12 /* InfoPlist.strings in Resources */,
 				00EBA49D188CBCA70091DD12 /* Main.storyboard in Resources */,
+				00EBA4C1188CC0D80091DD12 /* music1.mp3 in Resources */,
+				00EBA4BF188CBF250091DD12 /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
